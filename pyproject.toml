@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "equity-factor-model"
+version = "0.1.0"
+description = "Automated multi-factor equity screening framework using Alpha Vantage fundamental data."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Nick Nuzzo"}
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "requests",
+    "matplotlib",
+    "openpyxl"
+]
+
+[project.scripts]
+equity-factor-model = "equity_factor_model.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
