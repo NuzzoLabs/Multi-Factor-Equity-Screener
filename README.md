@@ -1,5 +1,5 @@
 ## Equity Factor Model
-Automated equity screening framework built on Alpha Vantage fundamental data.
+Automated equity screening framework built on fundamental data from the Alpha Vantage API.
 This project evaluates companies using a multi-factor framework inspired by quality-first investing principles. The model emphasizes capital efficiency, balance sheet strength, free cash flow generation, valuation, risk, and macroeconomic context.
 
 ## Features
