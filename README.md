@@ -10,6 +10,11 @@ This project evaluates companies using a multi-factor framework inspired by qual
 - Exports normal, macro-adjusted, and delta factor tables to Excel
 - Includes radar/spider chart visualization for factor comparison
 
+## Planned Functionality
+- Backtesting engine
+- Portfolio risk analysis
+- Sector concentration analysis
+
 ## Factor Categories
 - Liquidity: current ratio, quick ratio, working capital per revenue
 - Growth: reinvestment quality, revenue CAGR, free cash flow CAGR
