@@ -58,7 +58,6 @@ equity-factor-model/
 ├── README.md
 ├── requirements.txt
 ├── pyproject.toml
-├── LICENSE
 └── .gitignore
 ```
 ## Research Code Notice
